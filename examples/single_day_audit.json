@@ -1,0 +1,28 @@
+{
+  "employee_name": "Dr. Elena Fischer",
+  "employee_id": "AUDIT-04",
+  "department": "Qualitätsmanagement",
+  "purpose": "Vor-Ort-Audit ISO 9001",
+  "country": "DE",
+  "days": [
+    {
+      "date": "2026-02-10",
+      "day_type": "single_over_8h",
+      "hours_absent": 9.5,
+      "location": "Stuttgart",
+      "breakfast_provided": false,
+      "lunch_provided": true,
+      "dinner_provided": false,
+      "km_driven": 140,
+      "vehicle": "car",
+      "overnight_allowance_claimed": false,
+      "overnight_receipt_amount": 0,
+      "expenses": [
+        {
+          "description": "Tiefgarage",
+          "amount": 12.00
+        }
+      ]
+    }
+  ]
+}
