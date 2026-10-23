@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reisekosten-dach"
+version = "2026.1.0"
+authors = [
+  { name="DACH Digitalwerk", email="dach.digitalwerk@gmail.com" },
+]
+description = "DACH Reisekosten-, Verpflegungsmehraufwand- & Pendlerpauschalen-Rechner 2026 (BMF, § 9 Abs. 4a EStG, Österreich & Schweiz)."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["reisekosten", "spesen", "verpflegungsmehraufwand", "pendlerpauschale", "kilometergeld", "bmf-2026", "estg", "dach"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Legal Industry",
+    "Topic :: Office/Business :: Financial :: Accounting",
+]
+
+[project.urls]
+"Homepage" = "https://dach-digitalwerk.netlify.app/reisekosten-verpflegungsmehraufwand/"
+"Source" = "https://github.com/DACHDigitalwerk/reisekosten-verpflegungsmehraufwand-rechner-dach"
+"Bug Tracker" = "https://github.com/DACHDigitalwerk/reisekosten-verpflegungsmehraufwand-rechner-dach/issues"
+
+[project.scripts]
+dach-spesen = "reisekosten_dach.cli:main"
