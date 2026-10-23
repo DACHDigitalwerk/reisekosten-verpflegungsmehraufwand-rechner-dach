@@ -1,0 +1,58 @@
+{
+  "employee_name": "Maximilian Mustermann",
+  "employee_id": "PA-84920",
+  "department": "Vertrieb / B2B-KeyAccount",
+  "purpose": "Projekt-Kickoff & Systemprüfung vor Ort",
+  "country": "DE",
+  "days": [
+    {
+      "date": "2026-01-14",
+      "day_type": "arrival",
+      "location": "Frankfurt am Main",
+      "breakfast_provided": false,
+      "lunch_provided": false,
+      "dinner_provided": true,
+      "km_driven": 180,
+      "vehicle": "car",
+      "overnight_allowance_claimed": true,
+      "overnight_receipt_amount": 0,
+      "expenses": [
+        {
+          "description": "Parkticket Messe",
+          "amount": 15.00
+        }
+      ]
+    },
+    {
+      "date": "2026-01-15",
+      "day_type": "full_day",
+      "location": "Frankfurt am Main",
+      "breakfast_provided": true,
+      "lunch_provided": true,
+      "dinner_provided": false,
+      "km_driven": 0,
+      "vehicle": "car",
+      "overnight_allowance_claimed": true,
+      "overnight_receipt_amount": 0,
+      "expenses": []
+    },
+    {
+      "date": "2026-01-16",
+      "day_type": "departure",
+      "location": "Rückreise nach Hauptsitz",
+      "breakfast_provided": true,
+      "lunch_provided": false,
+      "dinner_provided": false,
+      "km_driven": 180,
+      "vehicle": "car",
+      "overnight_allowance_claimed": false,
+      "overnight_receipt_amount": 0,
+      "expenses": [
+        {
+          "description": "Mautgebühr / Tunnel",
+          "amount": 8.50
+        }
+      ]
+    }
+  ]
+}
